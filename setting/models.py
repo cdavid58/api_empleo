@@ -54,3 +54,5 @@ class Driving_License(models.Model):
     def __str__(self):
         return self.name
 
+class Tokens(models.Model):
+    token = models.CharField(max_length = 60)
